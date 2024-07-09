@@ -8,12 +8,13 @@ body {
     font-family: Arial, sans-serif;
     background: linear-gradient(to top, rgba(0,0,0,0.5) 50%, rgba(0,0,0,0.5) 50%), url('Background.jpg');
     background-position: center;
-    background-size: cover;
+    background-size: contain; /* Adjusted from 'cover' to 'contain' */
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
 
 .main {
     width: 100%;
