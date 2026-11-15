@@ -11,14 +11,14 @@ export const site = {
 
 export const about = {
   intro:
-    "Hello! I'm Adham Zarif, a Computer Science and Engineering undergraduate at United International University (CGPA 3.19/4.00). I build full-stack web platforms and mobile apps, and I'm expanding into machine learning, NLP, computer vision, and LLMs.",
+    "Hello! I'm Adham Zarif, a Computer Science and Engineering undergraduate at United International University. I'm expanding into machine learning, NLP, computer vision, and LLMs.",
   hobbies:
     "Outside of coding, I've worked as a video editor and volunteered in community health and emergency-response initiatives.",
   education: {
     degree: "BSc",
     field: "Computer Science and Engineering",
     school: "United International University",
-    image: "", // e.g. "/university.jpg"
+    image: "/university.png",
   },
 };
 
