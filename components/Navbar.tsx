@@ -1,12 +1,13 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { Home, User, FolderOpen, Code2, BadgeCheck, Mail, Menu, X, Moon, Sun } from "lucide-react";
+import { Home, User, Briefcase, FolderOpen, Code2, BadgeCheck, Mail, Menu, X, Moon, Sun } from "lucide-react";
 import { site } from "@/data/portfolio";
 
 const links = [
   { href: "#home", label: "Home", icon: Home },
   { href: "#about", label: "About", icon: User },
+  { href: "#experience", label: "Experience", icon: Briefcase },
   { href: "#projects", label: "Projects", icon: FolderOpen },
   { href: "#skills", label: "Skills", icon: Code2 },
   { href: "#certifications", label: "Certifications", icon: BadgeCheck },

@@ -1,8 +1,18 @@
-import { Code2, Server, Languages, Globe, Database } from "lucide-react";
+import { Code2, Server, Languages, Globe, Database, Smartphone, GitBranch, Briefcase, Brain } from "lucide-react";
 import { skills, type SkillIcon } from "@/data/portfolio";
 import SectionHeading from "./SectionHeading";
 
-const icons: Record<SkillIcon, typeof Code2> = { code: Code2, server: Server, languages: Languages, globe: Globe, database: Database };
+const icons: Record<SkillIcon, typeof Code2> = {
+  code: Code2,
+  server: Server,
+  languages: Languages,
+  globe: Globe,
+  database: Database,
+  smartphone: Smartphone,
+  git: GitBranch,
+  briefcase: Briefcase,
+  brain: Brain,
+};
 
 export default function Skills() {
   return (
