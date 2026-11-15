@@ -4,7 +4,7 @@ export const site = {
   title: "Undergraduate Software Engineer",
   tagline:
     "CSE undergraduate building full-stack web and mobile applications, with a growing focus on machine learning, NLP, and computer vision.",
-  profileImage: "", // e.g. "/profile.jpg"
+  profileImage: "/profile.jpg", // e.g. "/profile.jpg"
   resumeUrl: "", // e.g. "/resume.pdf" — button hides when empty
   year: new Date().getFullYear(),
 };
